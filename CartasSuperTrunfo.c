@@ -9,13 +9,13 @@ int main() {
     int populacao;
 
     printf("Digite uma letra de 'a' a 'h' representando o estado: \n");
-    scanf("%c", &estado);
+    scanf(" %c", &estado);
 
     printf("Digite a letra do estado seguida de um número de 01 a 04 \n");
-    scanf("%c", &codigo);
+    scanf("%2s", codigo);
 
     printf("Cidade: \n");
-    scanf("%c", &cidade);
+    scanf(" %19s", cidade);
 
     printf("Área em quilometros quadrados da cidade:");
     scanf("%f", &area);
