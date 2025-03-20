@@ -31,7 +31,7 @@ int main() {
     scanf(" %d", &populacao);
 
     printf("Estado: %c - Codigo da carta: - %s \n", estado, codigo);
-    printf("Cidade: %s - Área: %f", cidade, area);
+    printf("Cidade: %s - Área: %f - PIB: %f - Pontos turísticos: %d - População: - %d", cidade, area, pib, turistico, populacao);
 
     return 0;
 }
